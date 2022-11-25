@@ -7,6 +7,10 @@ def random_str(length: int = None, *, chars: str = "abcdefghijklmnopqrstuvwxyzAB
 
 
 if __name__ == "__main__":
+    password = random_str()
+    print(password)
+    
     from pyperclip import copy
-
-    copy(random_str())
+    
+    copy(password)
+    
