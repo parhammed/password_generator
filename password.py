@@ -1,4 +1,3 @@
-from string import ascii_lowercase, digits, ascii_uppercase
 import random
 
 
